@@ -31,7 +31,7 @@
   }
 /*Start signin*/
 .body-login{ 
-    background-image: linear-gradient(to bottom, #E1AAAA  ,rgb(44, 117, 44));
+    background-image: linear-gradient(to bottom, #E1AAAA  ,rgb(44, 117, 44)) !important;
 }
 
 /*start logo*/
