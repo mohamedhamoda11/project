@@ -1,0 +1,134 @@
+*{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+       
+}
+@font-face {
+    font-family: "1";
+    src: url(static/Montserrat-BoldItalic.ttf);
+}
+/*for desktop*/
+@media only screen and (min-width: 768px) {
+    body {
+        overflow: hidden;
+      }
+  }
+/*for mobile*/
+@media only screen and (max-width: 768px ) {
+    .facecolor , .google{
+        font-size: 16px !important;
+      }
+    .logo{
+        margin-top: 15% !important;
+    }
+    .form-signin{
+        margin-left: 12px !important ;
+    }
+  }
+  body{
+    font-family: "1";
+  }
+/*Start signin*/
+.body-login{ 
+    background-image: linear-gradient(to bottom, #E1AAAA  ,rgb(44, 117, 44));
+}
+
+/*start logo*/
+.logo{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 30%;
+    text-align: center;
+}
+/*start form-signin*/
+.form-signin{
+    background-image: linear-gradient(to bottom,white,gray);
+    border-radius: 5px;
+}
+.line{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+.facecolor{
+    background-color: #18316F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.facecolor:hover ,:active{
+    background-color: white;
+    color: #18316F;
+}
+.google{
+    border: none;
+    border-radius: 5px;
+    color: grey;
+}
+.google:hover ,:active{
+    color: black;
+}
+
+.OR{
+    width: 50px;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+}
+.email{
+    margin-left: 70px;
+}
+.place{
+    border: none;
+    border-radius: 5px;
+
+}
+.eyeslash{
+    margin-left: -28px;
+}
+.b1{
+    width: 295px;
+    border: none;
+    border-radius: 5px;
+}
+.b1:hover ,:active{
+    color: black !important ;
+    
+}
+.text1{
+    text-align: center;
+    width: 150px;
+    font-size: 9px;
+    margin: auto;
+}
+/*end sign in*/
+
+/*start create account*/
+.body-create{
+    background-image:linear-gradient(to right,#E1AAAA ,#b1734a  ) ;
+}
+.line-create{
+    margin-top: -100px;
+    font-size: 60px;
+}
+.create-p{
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: -2px;
+}
+.create-input{
+    width: 350px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.b-create {
+    width: 220px;
+    height: 35px;
+    font-size: 18px;
+
+}
