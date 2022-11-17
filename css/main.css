@@ -9,18 +9,15 @@
     src: url(static/Montserrat-BoldItalic.ttf);
 }
 /*for desktop*/
-@media only screen and (min-width: 768px) {
-    body {
-        overflow: hidden;
-      }
-  }
+
 /*for mobile*/
-@media only screen and (max-width: 768px ) {
+@media only screen and (max-width: 1180px ) {
     .facecolor , .google{
-        font-size: 16px !important;
+        font-size: 12px !important;
       }
     .logo{
         margin-top: 15% !important;
+        font-size: 60px;
     }
     .form-signin{
         margin-left: 12px !important ;
@@ -31,14 +28,16 @@
   }
 /*Start signin*/
 .body-login{ 
-    background-image: linear-gradient(to bottom, #E1AAAA  ,rgb(44, 117, 44)) !important;
+    background-image: linear-gradient(to right,#E1AAAA,#4b5320);
+    
 }
 
 /*start logo*/
 .logo{
-    font-size: 60px;
+    font-size: 100px;
     font-weight: bold;
     margin-top: 30%;
+    color: white;
     text-align: center;
 }
 /*start form-signin*/
@@ -50,7 +49,7 @@
     font-size: 60px;
     font-weight: bold;
     text-align: center;
-    margin-left: -100px;
+    margin-left: -120px;
     margin-top: -100px;
 }
 .facecolor{
